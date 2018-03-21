@@ -1,27 +1,37 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fish Buttons</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    
-</head>
+<meta charset="UTF-8">
+<title>Car Search</title>
+<link rel="stylesheet" type="text/css"  href="css/style.css" />
+
+
+</head>    
+
 <body>
-    
-    <button data-fish ="whale">Big</button>
-    <button data-fish ="shark">Jaws</button>
-    <button data-fish ="Dolphin"> Dolphin</button>
 
-    <!-- <button type="button" class="btn btn-primary" data-fish="whale">Big</button>
-    <button type="button" class="btn btn-primary" data-fish="shark">Jaws</button>
-    <button type="button" class="btn btn-primary" data-fish="dolphin">Dolphin</button> -->
+        <div class="container">
+        <h1>Car Search</h1>
 
-    <div id="gifs-appear-here"> </div>
+        <!-- Cars will Get Dumped Dere -->
+        <div id="cars-view"></div>
+
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div id="buttons-view"></div>
+
+        <form id="cars-form">
+            <label for="cars-input">Add a Type of Car</label>
+            <input type="text" id="cars-input">
+            <br>
+
+            <!-- Button triggers new car to be added -->
+            <input id="add-cars" type="submit" value="Add a Type of Car">
+        </form>
+        </div>
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
-<script src="javascript/api.js"></script>
+<script src="javascript/api2.js"></script>
 </body>
-</html>
+</html>    
