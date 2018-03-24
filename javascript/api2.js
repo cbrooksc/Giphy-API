@@ -8,7 +8,7 @@
         // Re-renders the HTML to display the appropiate content
         function displayCarInfo() {
             var cars = $(this).attr("data-name");
-            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + cars + "&api_key=C93K78HQ2rcQ97dNx87OnVuAYjvvpJtb&limit=10&offset=0&rating=PG&lang=en";
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +  "cars" + "&api_key=C93K78HQ2rcQ97dNx87OnVuAYjvvpJtb&limit=10&offset=0&rating=PG&lang=en";
 
          //Creating an AJax call for the specific car button being click
          
@@ -31,8 +31,8 @@
           carsDiv.append(p);
 
           //Retrieving the URL for the image
-          var imgURL = cookie.Poster;
-
+          var imgURL = cookie.cars;
+            
           //Creating element to hold the image
           var image = $("<img>").attr("src", imgURL);
 
@@ -79,9 +79,10 @@
     //Line grabs the input from the textbox and takes out spaces from the outside
     var cars = $("#cars-input").val().trim();  
     
-    
+    console.log("#cars-input");
     //Adds cars from the textbox to the array
     cars.push(cars);
+    console.log(cars);
 
     //Calling the renderBtn which handles the processing of car array
     
