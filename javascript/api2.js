@@ -31,7 +31,7 @@
           carsDiv.append(p);
 
           //Retrieving the URL for the image
-          var imgURL = cookie.cars;
+          var imgURL = cookie.queryURL;
             
           //Creating element to hold the image
           var image = $("<img>").attr("src", imgURL);
@@ -52,7 +52,7 @@
         $("#buttons-view").empty();
 
         //Looping the array of cars
-        for (var i =0; i < cars.length; i++) {
+        for (var i = 0; i < cars.length; i++) {
 
         // Then dynamicaly generating buttons for each movie in the array
        // This code $("<button>") is all jQuery needs to create the beginning and end tag. (<button></button>)
