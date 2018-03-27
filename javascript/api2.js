@@ -39,7 +39,7 @@
           //Appending the image
           carsDiv.append(image);
 
-          //Adding the entire movie below the previous car
+          //Adding the entire car below the previous car
           $("#cars-view").append(carsDiv);
 
          });
@@ -48,7 +48,7 @@
         
         // Fucntion for displaying the cars data
         function renderBtn() {  
-        //Deleting the movie prior to adding new cars    
+        //Deleting the car prior to adding new cars    
         $("#buttons-view").empty();
 
         //Looping the array of cars
