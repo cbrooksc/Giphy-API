@@ -6,3 +6,38 @@ form,
 input {
     margin: 10px;
 }
+
+h1 {
+    color:rgb(blue);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: italic
+    
+}
+
+
+body {
+    background-image: url("images/collection.png");
+
+
+}
+
+button
+,input {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    
+}
+
+
+button {
+        border:1px solid green;
+        height:60px ;
+        width: 150px;
+        border-radius: 4px;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0);
+        transition: box-shadow 1s;
+    
+}

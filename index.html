@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Car Search</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 
@@ -12,7 +13,7 @@
     <body>
 
         <div class="container">
-            <h1><strong><em>Car Search</em></strong></h1>
+            <h1>Car Search</h1>
 
             <!-- Cars will Get Dumped Dere  -->
 
@@ -21,18 +22,19 @@
             <div id="buttons-view"></div>
 
             <form id="cars-form">
-                <label for="cars-input"><em>Add a Type of Car</em></label>
+                <label for="cars-input">Add a Type of Car</label>
                 <input type="text" id="cars-input">
                 <br>
 
                 <!-- Button triggers new car to be added -->
                 <input id="add-cars" type="submit" value="Add a Type of Car ">
+    
             </form>
             <div id="cars-view"></div>
         </div>
 
 
-
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="javascript/api2.js"></script>
     </body>

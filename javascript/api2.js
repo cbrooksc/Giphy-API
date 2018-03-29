@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     //Array of cars
-    var carsArray = ["lamborghini", "Bentley", "NHRA Funny Car", "Ferrari"];
+    var carsArray = ["lamborghini", "Bentley", "NHRA Funny Car", "Ferrari","BMW","Bugatti"];
 
     // Fucntion for displaying the cars data
     function renderBtn() {
@@ -100,3 +100,4 @@ $(document).ready(function() {
     renderBtn();
 
 }); //end of document ready
+
